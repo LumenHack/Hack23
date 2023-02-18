@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="https://icons8.com/icon/6e5h8eIkPlWN/barber-chair">
+ 
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Parlor management System</title>
+    </head>
+    <body>
+        <nav class="nav bar">
+            <div class="burger">
+                <div class="layer 1"></div>
+                <div class="layer 1"></div>
+                <div class="layer 1"></div>
+            </div>
+            <div>
+                <div class="logo">
+                    <span class="logo-text"><i class="fa fa-session" style="margin-right:0.1em"></i>Parlor<span style="color:rgba(72, 0, 255, 0.333);font-size:1.em";>Management</span>
+ 
+                </div>
+                <div class="menu bar">
+                    <ul class="list">
+                        <li class="list-items"><a href="#">Home</a></li>
+                        <li class="list-items"><a href="#">Events</a></li>
+                        <li class="list-items"><a href="#">Pricing</a></li>
+                        <li class="list-items"><a href="#">About us</a></li>
+                    </ul>
+                </div>
+                <div class="cart">
+                    <i class="fa fa shopping-cart fa-1x "></i>
+                    <div class="number of events"><span class="noi">0</span></div>
+                </div>
+            </div>
+        </nav>
+        <section class="section 1">
+            <div class="banner">
+                <h1>Find your favourite spa session here!!!</h1>
+                <a href="#spa">BOOK NOW!!</a>
+            </div>
+        </section>
+        <section class="section 2" id="spa">
+            <div class="title">
+                <h1>offers</h1>
+                
+            </div>
+        </section>
+        <div class="cart-sidebar">
+            <div class="cart">
+                <span class="close-cart">
+                <i class="fa fa-times"></i>
+                </span>
+                <h2>your cart</h2>
+            </div>
+        </div>
+        <div class="cart-content">
+
+        </div>
+        <div class="total-sum">
+            <h1>our total:$<span class="total amount">0</span></h1>
+        </div>
+        <div class="clear-cart">
+            <button class="btn clear-cart.btn"></button>
+        </div>
+        <div class="clear-cart">
+            <button class="btn clear-cart.btn">proceed</button>
+        </div>
+        <image src="bg1.jpg"></image>
+    </body>
+ 
+</html>
